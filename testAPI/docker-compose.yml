@@ -8,3 +8,8 @@ services:
       dockerfile: api/Dockerfile
     networks: 
      - nginxproxymanager_default
+ 
+networks:
+  nginxproxymanager_default:
+    driver: bridge
+ 
