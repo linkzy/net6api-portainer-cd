@@ -11,5 +11,5 @@ services:
  
 networks:
   nginxproxymanager_default:
-    driver: bridge
+    external: true
  
